@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: blue;
+    height: 2rem !important;
+
+}
+.navbar button{
+    margin-top: -0.5rem !important;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.navbar .heading{
+    margin-top: -0.5rem !important;
+    color: white;
+}
+
+.postcreater{
+    /* border: 2px solid; */
+    box-shadow: 2px 5px 10px  grey ;
+    padding: 3rem;
+}
+
+.postcreater textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.postcreater textarea:focus{
+    box-shadow: 1px 2px 15px 5px  lightskyblue ;
+}
+.publish{
+    width: 8rem;
+    padding: 0.2rem;
+    background-color: rgb(179, 132, 224);
+    border-radius: 0.2rem;
+    
+}
+
+.userName{
+    color: white;
+}
+
+.card{
+    border: none !important;
+}
+
+.singlrpost{
+    padding: 10px;
+}
+.textColumn{
+    font-size: 0.9rem;
+}
+
+.delete{
+    background-color: transparent;
+    border: none;
+    color: lightskyblue;
+    
+}
+.edit{
+    background-color: transparent;
+    border: none;
+    color: lightskyblue;
+
+}
+.myBlog{
+    margin-left: 3.8rem !important;
+}
+.postBtn{
+    margin-top: 10px;
+}

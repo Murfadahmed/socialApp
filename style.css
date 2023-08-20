@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/* ******************************SIGN  UP PAGE ********************** */
+.signUpPage{
+    /* border: 3px solid; */
+    height: 100vh;
+    background-color: lightgrey;
+}
+.field{
+    /* border: 2px solid; */
+    /* padding: 2.5rem 5rem !important; */
+    background-color: white;
+    box-shadow: 2px 5px 10px  grey ;
+}
+.field input{
+    margin: 0.7rem;
+    border-radius: 5px;
+}
+.field input:focus{
+    box-shadow: 1px 2px 15px 5px  lightskyblue ;
+}
+
+.navbar{
+    background-color: blue;
+    height: 2rem !important;
+
+}
+.navbar button{
+    margin-top: -0.5rem !important;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.navbar .heading{
+    margin-top: -0.5rem !important;
+    color: white;
+}
+.signUpBtn{
+    background-color: rgb(179, 132, 224);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
